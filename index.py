@@ -61,7 +61,8 @@ while True:
     # TODO 11: If player_position == rock_position, print hit and break.
     # TODO 12: Else, print "✅ You dodged the rock!" and add to score/streak.
     if player_position == rock_position:
-        print("hit and break.")
+        print("hit.")
+        break
     else:
         print("✅ You dodged the rock!")
         score += 1
